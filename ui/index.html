@@ -23,19 +23,8 @@
                 This button <input type="button" value="Click Me" id="counter"> has been clicked <span id="count">0</span> times. 
             </div>
         </div>    
-        <script>
-            var button = document.getElementById('counter');
-            var counter = 0;
-            button.onclick = function(){
-                //Maker request to the counter endpoint
-                
-                // Capture the response anD store it in a variable
-                
-                // Render the variable in the correct span 
-                counter = counter +1;
-                var span = document.getElementById('count');
-                span.innerHTML = counter.toString();
-            };
+        <script src = '/ui/main.js' type="text/javascript">
+            
         </script>
     </body>
 </html>
